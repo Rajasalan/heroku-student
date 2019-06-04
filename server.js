@@ -54,7 +54,7 @@ const students = [
   }
 ] */
 app.get('/', (req, res) => {  
-  Student.collection.insertMany(students)
+ // Student.collection.insertMany(students)
   res.render('pages/index', { person });
 });
 app.get('/about', (req, res) => {
