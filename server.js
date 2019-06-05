@@ -32,8 +32,8 @@ console.log(__dirname);
 const person = {
   name: 'Asab'
 };
-/* 
-const students = [
+
+/* const students = [
   {
     name:'Garland',
     country:'India',
@@ -52,11 +52,11 @@ const students = [
     age:21,
     bio:'Junior Developer'
   }
-] */
-app.get('/', (req, res) => {  
+]  */
+/* app.get('/', (req, res) => {  
  // Student.collection.insertMany(students)
   res.render('pages/index', { person });
-});
+}); */
 app.get('/about', (req, res) => {
   res.render('pages/about');
 });
